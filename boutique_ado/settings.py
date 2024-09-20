@@ -26,10 +26,10 @@ SECRET_KEY = 'django-insecure-s0d(d-xf@#u__4ow0ab*5)xb4y82xz&@3@d^-sw6sm#&-y511=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-ciarangriff-boutiqueado-5vu5bxk7o8p.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-ciarangriff-boutiqueado-0zalbo90fcv.ws.codeinstitute-ide.net']
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriff-boutiqueado-7zsn20579h4.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriff-boutiqueado-0zalbo90fcv.ws.codeinstitute-ide.net'
 ]
 
 
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
 ]
 
 MIDDLEWARE = [
@@ -77,6 +78,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
@@ -162,3 +164,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
