@@ -14,5 +14,3 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
-tasks:
-  - init: pip install -r requirements.txt
