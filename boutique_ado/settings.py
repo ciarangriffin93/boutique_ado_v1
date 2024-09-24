@@ -26,10 +26,10 @@ SECRET_KEY = 'django-insecure-s0d(d-xf@#u__4ow0ab*5)xb4y82xz&@3@d^-sw6sm#&-y511=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-ciarangriff-boutiqueado-sa1rf7mr7c3.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-ciarangriff-boutiqueado-bx6rkm0f9cq.ws.codeinstitute-ide.net']
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ciarangriff-boutiqueado-sa1rf7mr7c3.ws.codeinstitute-ide.net'
+    'https://8000-ciarangriff-boutiqueado-bx6rkm0f9cq.ws.codeinstitute-ide.net'
 ]
 
 
